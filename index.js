@@ -31,7 +31,7 @@ function sayHiToGrandma(string) {
   else if (string.toUpperCase() === uppercase) {
     return "YES INDEED";
   }
-  else (string.mixedCase === mixedCase){
+  else (string.toLowerCase() === mixedCase){
     return "I love you, too.";
   }
 }
