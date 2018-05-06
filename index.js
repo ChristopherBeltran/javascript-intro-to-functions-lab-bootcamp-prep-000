@@ -18,7 +18,7 @@ var uppercase ="HELLO!"
  uppercase.toUpperCase() === uppercase;
  
  var lowercase ="hello!"
-  lowercase.toLowerCase === lowercase;
+  lowercase.toLowerCase() === lowercase;
 
 var mixedCase = "I love you, Grandma"
   mixedCase.toLowerCase === mixedCase;
