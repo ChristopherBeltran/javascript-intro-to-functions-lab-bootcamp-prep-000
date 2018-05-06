@@ -24,7 +24,7 @@ var uppercase = "HELLO!"
 var lowercase = "hello!"
   lowercase.toLowerCase() === lowercase;
   
-  if (string.toLowerCase() === lowercase) {
+  if (string === lowercase) {
     return "I can\'t hear you!";
   }
   else if (string.toUpperCase() === uppercase) {
