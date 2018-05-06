@@ -14,19 +14,17 @@ function logShout(string) {
 function logWhisper(string) {
   console.log(string.toLowerCase());
 }
-var uppercase ="HELLO!"
- uppercase.toUpperCase() === uppercase;
- 
- var lowercase ="hello!"
-  lowercase.toLowerCase() === lowercase;
 
-
-function sayHiToGrandma(string) 
-  {
+function sayHiToGrandma(string) {
     if (string === "I love you, Grandma.") {
       return "I love you, too.";
     }
   }
+  var uppercase ="HELLO!"
+ uppercase.toUpperCase() === uppercase;
+ 
+ var lowercase ="hello!"
+  lowercase.toLowerCase() === lowercase;
 {
   if (string.toLowerCase() === lowercase) {
     return "I can\'t hear you!";
