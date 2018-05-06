@@ -20,8 +20,8 @@ function sayHiToGrandma(string) {
       return "I love you, too.";
     }
     
-var uppercase = string.toUpperCase();
-var lowercase = string.toLowerCase();
+var uppercase = shout(string);
+var lowercase = whisper(string);
 
   if (string.toUpperCase() === uppercase) {
     return "YES INDEED!";
